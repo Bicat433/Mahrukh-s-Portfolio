@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 50% 98%;
+    --foreground: 340 20% 18%;
+    --card: 0 0% 100%;
+    --card-foreground: 340 20% 18%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 20% 18%;
+    --primary: 345 40% 68%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 50% 93%;
+    --secondary-foreground: 240 20% 30%;
+    --muted: 40 30% 95%;
+    --muted-foreground: 340 10% 50%;
+    --accent: 37 100% 88%;
+    --accent-foreground: 340 20% 18%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 340 20% 90%;
+    --input: 340 20% 90%;
+    --ring: 345 40% 68%;
+    --radius: 1rem;
+    --pink: 351 60% 93%;
+    --lavender: 240 67% 94%;
+    --beige: 40 50% 93%;
+    --peach: 37 100% 87%;
+    --rose: 345 40% 68%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-inter;
+  }
+  h1, h2, h3, h4 {
+    @apply font-playfair;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/60 backdrop-blur-md border border-white/40;
+  }
+  .glass-dark {
+    @apply bg-black/20 backdrop-blur-md border border-white/10;
+  }
+}
