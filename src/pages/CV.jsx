@@ -7,22 +7,14 @@ import GlowButton from '../components/GlowButton';
 
 const education = [
   { year: '2022-2026', degree: 'Bachelors in Media & Communication', school: 'Middlesex University | Dubai, United Arab Emirates', desc: 'Exploring digital media, communication, branding, and content strategy in a dynamic international environment.' },
-  { year: '2021', degree: 'High School Graduation, Psychology, Education & Home Economics', school: 'Pakistan International School Jeddah English Section | Jeddah, Saudi Arabia', desc: '' },
   { year: 'Feb 2023', degree: 'Certificate of Achievement, Research Process', school: 'Middlesex University Dubai Library', desc: 'Completed an online course on An Introduction to the Research Process, delivered by Middlesex University Dubai Library.', cert: 'https://media.base44.com/images/public/69e875335e0d875990564896/4ef7f2546_Mahrukhcertificate.jpg' },
+  { year: '2021', degree: 'High School Graduation, Psychology, Education & Home Economics', school: 'Pakistan International School Jeddah English Section | Jeddah, Saudi Arabia', desc: '' },
 ];
 
 const experience = [
-  { year: 'June 2024', role: 'Participant, L\'Oréal Brandstorm 2024', org: 'L\'Oréal (EOCCS Certified Competition)', desc: 'Participated in the world\'s only certified youth innovation competition by L\'Oréal. Developed and pitched innovative brand ideas on a global stage.', cert: 'https://media.base44.com/images/public/69e875335e0d875990564896/8fe85af20_Mahrukhcertificate2.jpg' },
-  { year: '2023-2024', role: 'Creator, Stylii AI Hair App (Academic Project)', org: 'Middlesex University Dubai', desc: 'Conceptualised and developed a business idea for an AI-powered hair styling mobile app. Designed branding, ads, color theory, and full business scope. Student no: M00910136.' },
-  { year: 'Freelance', role: 'Fashion Event Collaborator', org: 'Freelance', desc: 'Worked on over 30 freelance projects, showcasing multiple designers\' collections at international fashion events.' },
   {
-    year: '09/2021 - 02/2022', role: 'Kindergarten Teacher', org: 'Jeddah Grammar International School | Jeddah, Saudi Arabia',
-    bullets: [
-      'Developed and implemented engaging lesson plans aligned with early childhood curriculum standards.',
-      'Created a positive and nurturing learning environment for young children.',
-      'Assisted children with daily activities, including mealtimes, nap times, and outdoor play.',
-      'Collaborated with parents to monitor children\'s progress and address any concerns.',
-    ]
+    year: '2020 - Present', role: 'Fashion Event Collaborator', org: 'Freelance',
+    desc: 'Worked on over 30 freelance projects, showcasing multiple designers\' collections at international fashion events.'
   },
   {
     year: '2015 - Present', role: 'Tennis Coach', org: 'Self Employed | Jeddah, Saudi Arabia',
@@ -31,6 +23,17 @@ const experience = [
       'Developed training plans and implemented effective coaching techniques.',
       'Motivated and encouraged students to achieve their full potential.',
       'Achieved 90% student satisfaction rate by customizing lesson plans based on feedback.',
+    ]
+  },
+  { year: 'June 2024', role: 'Participant, L\'Oréal Brandstorm 2024', org: 'L\'Oréal (EOCCS Certified Competition)', desc: 'Participated in the world\'s only certified youth innovation competition by L\'Oréal. Developed and pitched innovative brand ideas on a global stage.', cert: 'https://media.base44.com/images/public/69e875335e0d875990564896/8fe85af20_Mahrukhcertificate2.jpg' },
+  { year: '2023-2024', role: 'Creator, Stylii AI Hair App (Academic Project)', org: 'Middlesex University Dubai', desc: 'Conceptualised and developed a business idea for an AI-powered hair styling mobile app. Designed branding, ads, color theory, and full business scope. Student no: M00910136.' },
+  {
+    year: '09/2021 - 02/2022', role: 'Kindergarten Teacher', org: 'Jeddah Grammar International School | Jeddah, Saudi Arabia',
+    bullets: [
+      'Developed and implemented engaging lesson plans aligned with early childhood curriculum standards.',
+      'Created a positive and nurturing learning environment for young children.',
+      'Assisted children with daily activities, including mealtimes, nap times, and outdoor play.',
+      'Collaborated with parents to monitor children\'s progress and address any concerns.',
     ]
   },
 ];
