@@ -4,7 +4,7 @@ import SectionTitle from '../components/SectionTitle';
 import { motion } from 'framer-motion';
 
 const timeline = [
-  { year: '2022-Present', title: 'BA Business Management with Marketing', desc: 'Studying at Middlesex University Dubai, exploring branding, advertising, digital media, and entrepreneurship.', color: 'bg-rose-200' },
+  { year: '2022-Present', title: 'Bachelors in Media & Communication', desc: 'Studying at Middlesex University Dubai, exploring branding, advertising, digital media, and entrepreneurship.', color: 'bg-rose-200' },
   { year: 'June 2024', title: 'L\'Oréal Brandstorm 2024 Participant', desc: 'Competed in the world\'s only certified youth innovation competition by L\'Oréal, EOCCS certified. Pitched creative brand innovation on a global stage.', color: 'bg-[#E6E6FA]' },
   { year: '2023-2024', title: 'Stylii AI App Project', desc: 'Created a full business concept for an AI-powered hair styling app, including branding, ad campaigns, and color theory research.', color: 'bg-[#FFE5B4]' },
   { year: 'Feb 2023', title: 'Research Process Certificate', desc: 'Completed Middlesex University Dubai Library\'s online course on Introduction to the Research Process.', color: 'bg-[#F5F5DC]' },
@@ -62,7 +62,7 @@ export default function About() {
             <h2 className="font-playfair text-3xl font-semibold mb-6">Hi, I'm Mahrukh!</h2>
             <div className="space-y-4 font-inter text-muted-foreground leading-relaxed">
             <p>
-              I'm Mahrukh Khan, a Business Management with Marketing student at Middlesex University Dubai, a creative at heart with a passion for visual design, content creation, and brand storytelling.
+              I'm Mahrukh Khan, a Media and Communication student at Middlesex University Dubai, a creative at heart with a passion for visual design, content creation, and brand storytelling.
             </p>
             <p>
               From developing the <strong className="text-foreground">Stylii AI Hair App</strong> concept to competing in <strong className="text-foreground">L'Oréal Brandstorm 2024</strong>, I bring ideas to life with creativity, research, and an eye for detail.
